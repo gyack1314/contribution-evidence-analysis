@@ -1,0 +1,50 @@
+{
+  "synthetic": true,
+  "fields": [
+    "dataset",
+    "version",
+    "contributor",
+    "period",
+    "evidence_type",
+    "study",
+    "status"
+  ],
+  "records": [
+    {
+      "dataset": "ds-a",
+      "version": "1",
+      "contributor": "team-a",
+      "period": "2025",
+      "evidence_type": "citation",
+      "study": "study-a",
+      "status": "verified"
+    },
+    {
+      "dataset": "ds-b",
+      "version": "1",
+      "contributor": "team-a",
+      "period": "2025",
+      "evidence_type": "reuse",
+      "study": "study-a",
+      "status": "pending"
+    },
+    {
+      "dataset": "ds-a",
+      "version": "2",
+      "contributor": "team-b",
+      "period": "2026",
+      "evidence_type": "download",
+      "study": "study-b",
+      "status": "verified"
+    },
+    {
+      "dataset": "ds-c",
+      "version": "1",
+      "contributor": "team-c",
+      "period": "2026",
+      "evidence_type": "reuse",
+      "study": "study-c",
+      "status": "corrected"
+    }
+  ]
+}
